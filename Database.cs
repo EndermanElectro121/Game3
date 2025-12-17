@@ -2,7 +2,6 @@
 {
     public void writing_of_all_database_of_class_Game_into_txt_file(string path, Game game)
     {
-        //game.create("hero");
         using (StreamWriter writer = new StreamWriter(path))
         {
             writer.WriteLine();
@@ -31,3 +30,4 @@
         }
     }
 }    
+
