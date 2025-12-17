@@ -2,25 +2,6 @@
 
 public class Game
 {
-    /*public void game()
-    {
-        Character hero = new Character { Name = "Hero", Health = 100, Armor = 50, Attack = 20 };
-        Enemy monster = new Enemy { Name = "Monster", Health = 80, Armor = 30, Attack = 15, Rage = 30 };
-        Console.WriteLine($"{hero.Name} attacks {monster.Name}");
-        hero.AttackCharacter(monster);
-        Console.WriteLine($"{monster.Name} Health: {monster.Health}");
-        Console.WriteLine($"{monster.Name} defends");
-        monster.DefenseCharacter(monster);
-        Console.WriteLine($"{monster.Name} Health after defense: {monster.Health}");
-        Console.WriteLine($"{hero.Name} heals {hero.Name}");
-        hero.HealCharacter(hero, 10);
-        Console.WriteLine($"{hero.Name} Health after healing: {hero.Health}");
-        Text text = new Text();
-        text.AddElement(new Header { Content = "Welcome to the Game" });
-        text.AddElement(new Paragraph { Content = "This is a simple RPG game." });
-        Console.WriteLine("Text Content:");
-        Console.WriteLine(text.ToString());
-    }*/
     public List<Character> characters = new List<Character>();
     public List<Enemy> enemies = new List<Enemy>(); 
     public void create(string type)
@@ -180,3 +161,4 @@ public class Game
         Console.WriteLine($"{character.Name} has equipped {itemName}");
     }
 }
+
